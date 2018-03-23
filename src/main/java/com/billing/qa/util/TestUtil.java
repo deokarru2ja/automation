@@ -31,11 +31,11 @@ public class TestUtil extends TestBase{
 	public static final long IMPLICIT_WAIT=120;
 	public static final long EXPLICIT_WAIT=120;
 	public static final long TIMEOUT=120;
-	public static final String interstitialURL="https://dssqa8-m.stage.att.com/my/#/adWorksInterceptorsGlobal";
-	public static final String paymentURL="https://dssqa8-m.stage.att.com/my/#/Payments";
-	public static final String overviewURL="https://dssqa8-m.stage.att.com/my/#/accountOverview";
-	public static final String URL="https://dssqa8-m.stage.att.com/my/#/login";
-	public static final String PRINT_URL="https://dssqa8-m.stage.att.com/my/#/printBill";
+	public static final String interstitialURL="";
+	public static final String paymentURL="";
+	public static final String overviewURL="";
+	public static final String URL="";
+	public static final String PRINT_URL="";
 	
 	static ITestContext context;
 	
