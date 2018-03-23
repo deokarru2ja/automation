@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="validate_reports_framework(failed)">
+    <parameter name="password" value="test1ng"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="mathewfloer13135"/>
+    <classes>
+      <class name="com.billing.qa.tcs.ReportFramework">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateReportFramework"/>
+        </methods>
+      </class> <!-- com.billing.qa.tcs.ReportFramework -->
+    </classes>
+  </test> <!-- validate_reports_framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->

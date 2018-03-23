@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.billing.qa.tcs.BillHistoryDropdownTest">
+        <methods>
+          <include name="validateTotalChargesForCurrentBill"/>
+          <include name="validateNumberOfBillInBHD"/>
+          <include name="validateSelectPreviousBill"/>
+          <include name="goToBillingPage"/>
+          <include name="validateTotalChargesForPreviousBill"/>
+          <include name="setUp"/>
+          <include name="checkLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.billing.qa.tcs.BillHistoryDropdownTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

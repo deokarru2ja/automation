@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.billing.qa.tcs.MyBillPageTest">
+        <methods>
+          <include name="validateTotalChargesForPreviousBill"/>
+          <include name="validateTotalChargesForCurrentBill"/>
+          <include name="validateSelectPreviousBill"/>
+          <include name="checkLogin"/>
+          <include name="goToBillingPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.billing.qa.tcs.MyBillPageTest -->
+      <class name="com.billing.qa.tcs.OverviewPageTest">
+        <methods>
+          <include name="checkNavigation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.billing.qa.tcs.OverviewPageTest -->
+      <class name="com.billing.qa.tcs.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="doLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.billing.qa.tcs.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
