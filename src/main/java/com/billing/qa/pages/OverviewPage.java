@@ -20,8 +20,9 @@ public class OverviewPage extends TestBase{
 	@FindBy(xpath="//ul[@id='tab-desktop-menu']/li[2]/ul/li[3]/a[3]")
 	static WebElement viewMyBill;
 	
-	@FindBy(xpath="//*[@id=\'myBilling\']/div[2]/a")
+	@FindBy(xpath="//*[@id=\'myBil\']/div[2]/a")
 	static WebElement seeMyBill;
+	//"//*[@id=\'myBilling\']/div[2]/a"
 	
 	
 	
@@ -29,7 +30,7 @@ public class OverviewPage extends TestBase{
 	
 	public static void navigateToBilling() {
 		
-		TestUtil.waitUntilElementIsVisible(seeMyBill);
+		//TestUtil.waitUntilElementIsVisible(seeMyBill);
 		
 		seeMyBill.click();
 		

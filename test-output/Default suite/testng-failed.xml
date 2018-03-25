@@ -3,18 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.billing.qa.tcs.BillHistoryDropdownTest">
+      <class name="com.billing.qa.tcs.LoginTest">
         <methods>
-          <include name="validateTotalChargesForCurrentBill"/>
-          <include name="validateNumberOfBillInBHD"/>
-          <include name="validateSelectPreviousBill"/>
-          <include name="goToBillingPage"/>
-          <include name="validateTotalChargesForPreviousBill"/>
-          <include name="setUp"/>
           <include name="checkLogin"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.billing.qa.tcs.BillHistoryDropdownTest -->
+      </class> <!-- com.billing.qa.tcs.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,12 +1,14 @@
 package com.billing.qa.util;
 
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Calendar;
+
+
+
+
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
-import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -81,11 +83,17 @@ import com.billing.qa.base.TestBase;
 		}
 
 		public void onException(Throwable error, WebDriver driver) {
+			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+			Date date = new Date();
+			System.out.println(dateFormat.format(date));
 			System.out.println("Exception occured: " + error);
 			
 		}
 
 		public void beforeFindBy(By by, WebElement element, WebDriver driver) {
+			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+			Date date = new Date();
+			System.out.println(dateFormat.format(date));
 			System.out.println("Trying to find Element By : " + by.toString());
 			
 		}
@@ -153,15 +161,6 @@ import com.billing.qa.base.TestBase;
 		}
 		
 		
-
-		private Date getTime(long startMillis) {
-			
-			
-			Calendar calender = Calendar.getInstance();
-			calender.setTimeInMillis(startMillis);
-			
-			return calender.getTime();
-		}
 
 
 	}

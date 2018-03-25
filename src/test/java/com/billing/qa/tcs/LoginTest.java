@@ -37,8 +37,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage.login(userName, password);
 		OverviewPage.navigateToBilling();
-		MyBillPage.navigateToPayments();
-		Payments.validatePageTitle();
+		
 	}
 	
 	@AfterMethod

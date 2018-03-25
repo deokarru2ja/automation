@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="validate_bill_history_dropdown(failed)">
+  <test name="validate_page_title(failed)">
     <parameter name="password" value="test1ng"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="userName" value="waynenkuxzxkwg85034"/>
+    <parameter name="userName" value="mathewfloer13135"/>
     <classes>
-      <class name="com.billing.qa.tcs.BillHistoryDropdownTest">
+      <class name="com.billing.qa.tcs.LoginTest">
         <methods>
-          <include name="validateNumberOfBillInBHD"/>
-          <include name="validateSelectPreviousBill"/>
-          <include name="validateTotalChargesForPreviousBill"/>
+          <include name="checkLogin" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.billing.qa.tcs.BillHistoryDropdownTest -->
+      </class> <!-- com.billing.qa.tcs.LoginTest -->
     </classes>
-  </test> <!-- validate_bill_history_dropdown(failed) -->
+  </test> <!-- validate_page_title(failed) -->
 </suite> <!-- Failed suite [Suite] -->
