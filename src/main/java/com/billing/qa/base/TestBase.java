@@ -17,6 +17,7 @@ import com.billing.qa.pages.InterstitialPage;
 import com.billing.qa.pages.LoginPage;
 import com.billing.qa.pages.MyBillPage;
 import com.billing.qa.pages.OverviewPage;
+import com.billing.qa.pages.Payments;
 import com.billing.qa.pages.PrintPreviewPage;
 import com.billing.qa.pages.ReportsPage;
 import com.billing.qa.util.TestUtil;
@@ -84,6 +85,7 @@ public class TestBase {
 		PageFactory.initElements(driver, MyBillPage.class);
 		PageFactory.initElements(driver, PrintPreviewPage.class);
 		PageFactory.initElements(driver, ReportsPage.class);
+		PageFactory.initElements(driver, Payments.class);
 	}
 	
 	

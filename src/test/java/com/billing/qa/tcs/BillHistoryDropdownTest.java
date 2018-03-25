@@ -68,6 +68,8 @@ public class BillHistoryDropdownTest extends TestBase {
 	public void validateNumberOfBillInBHD() {
 		
 		Assert.assertTrue(MyBillPage.validateNoOfBillsInBHD());
+		
+		MyBillPage.navigateToPayments();
 	}
 	
 	

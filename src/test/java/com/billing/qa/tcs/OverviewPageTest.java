@@ -6,7 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.billing.qa.base.TestBase;
 import com.billing.qa.pages.LoginPage;
-
+import com.billing.qa.pages.MyBillPage;
 import com.billing.qa.pages.OverviewPage;
 
 public class OverviewPageTest extends TestBase {
@@ -26,15 +26,10 @@ public class OverviewPageTest extends TestBase {
 	
 	@Test
 	public void checkNavigation() {
-		
-		try {
-			Thread.sleep(6000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	
 		
 		OverviewPage.navigateToBilling();
+		MyBillPage.navigateToPayments();
 	}
 	
 	@AfterMethod

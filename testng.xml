@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
 
- <!--<test thread-count="5" name="validate_bill_history_dropdown">
+<!--  <test thread-count="5" name="validate_bill_history_dropdown">
   	<parameter name="userName" value="waynenkuxzxkwg85034"></parameter>
   	<parameter name="password" value="test1ng"></parameter>
   	<parameter name="browser" value="chrome" ></parameter>
@@ -22,7 +22,7 @@
   </test>  Test -->
   
   
- <!--  <test thread-count="5" name="validate_print_preview_page">
+ <!--   <test thread-count="5" name="validate_print_preview_page">
   	<parameter name="userName" value="mathewfloer13135"></parameter>
   	<parameter name="password" value="test1ng"></parameter>
   	<parameter name="browser" value="chrome" ></parameter>
@@ -30,14 +30,14 @@
       <class name="com.billing.qa.tcs.PrintPreviewTest">
       </class>
     </classes>
-  </test> Test -->
+  </test> -->
   
-   <test thread-count="5" name="validate_reports_framework">
+  <test thread-count="5" name="validate_page_title">
   	<parameter name="userName" value="mathewfloer13135"></parameter>
   	<parameter name="password" value="test1ng"></parameter>
   	<parameter name="browser" value="chrome" ></parameter>
     <classes>
-      <class name="com.billing.qa.tcs.ReportFramework">
+      <class name="com.billing.qa.tcs.LoginTest">
       </class>
     </classes>
   </test> 

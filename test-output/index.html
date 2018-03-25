@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.billing.qa.tcs.ReportFramework" hash-for-method="validateReportFramework">validateReportFramework</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.billing.qa.tcs.ReportFramework" hash-for-method="checkLogin(mathewfloer13135, test1ng)">checkLogin(mathewfloer13135, test1ng)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.billing.qa.tcs.LoginTest" hash-for-method="checkLogin(mathewfloer13135, test1ng)">checkLogin(mathewfloer13135, test1ng)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,53 +117,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.billing.qa.tcs.ReportFramework</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateReportFramework">
-                  </a> <!-- validateReportFramework -->
-                  <span class="method-name">validateReportFramework</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;button&quot; ddh-dropdown-toggle=&quot;&quot; ng-disabled=&quot;disabled&quot; aria-label=&quot; ...&quot; aria-expanded=&quot;false&quot; aria-haspopup=&quot;true&quot; ng-click=&quot;toggleDropdown()&quot; ng-blur=&quot;setBlur()&quot; ng-class=&quot;{&apos;active opened&apos;: toggleFlag, &apos;closed&apos;: !toggleFlag, &apos;large&apos;: (dropdownSize === &apos;large&apos;), &apos;awd-select isWrapped&apos;: (dropdownType === &apos;menu&apos;), &apos;selectMenu&apos;: (dropdownType !== &apos;menu&apos;)}&quot; ng-bind-html=&quot;currentSelected.text&quot; ng-show=&quot;!isInputDropdown&quot; class=&quot;ng-binding closed awd-select isWrapped&quot; style=&quot;&quot;&gt;Data use&lt;/button&gt; is not clickable at point (401, 19). Other element would receive the click: &lt;div class=&quot;text-center graph-details bold ng-binding&quot; ng-bind-html=&quot;caption&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=65.0.3325.162)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;DESKTOP-FVII93U&apos;, ip: &apos;192.168.84.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\hrutu\AppData\Local\Temp\scoped_dir24832_1890}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.162, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 802db44ea762845f0386f7ffe99b394f
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:350)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:363)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.billing.qa.pages.ReportsPage.selectReportType(ReportsPage.java:28)
-	at com.billing.qa.tcs.ReportFramework.validateReportFramework(ReportFramework.java:42)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.billing.qa.tcs.ReportFramework</span>
+              <span class="class-name">com.billing.qa.tcs.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -200,14 +143,14 @@ Session ID: 802db44ea762845f0386f7ffe99b394f
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;validate_reports_framework&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;validate_page_title&quot;&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;test1ng&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;userName&quot; value=&quot;mathewfloer13135&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.billing.qa.tcs.ReportFramework&quot;/&gt;
+      &lt;class name=&quot;com.billing.qa.tcs.LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- validate_reports_framework --&gt;
+  &lt;/test&gt; &lt;!-- validate_page_title --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,7 +162,7 @@ Session ID: 802db44ea762845f0386f7ffe99b394f
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">validate_reports_framework (1 class)</span>
+                <span class="test-name">validate_page_title (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkLogin')
-data.setCell(0, 2, 'com.billing.qa.tcs.ReportFramework')
-data.setCell(0, 3, 39447);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateReportFramework')
-data.setCell(1, 2, 'com.billing.qa.tcs.ReportFramework')
-data.setCell(1, 3, 18923);
+data.setCell(0, 2, 'com.billing.qa.tcs.LoginTest')
+data.setCell(0, 3, 71992);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -272,25 +211,22 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">checkLogin(mathewfloer13135, test1ng)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121407.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121408.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121408.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121409.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121409.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121410.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121421.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121426.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121427.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121427.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121428.png" alt=""/></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validateReportFramework</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121441.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121441.png" alt=""/></span>
-                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_reports_framework/20180320121446.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010840.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010841.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010841.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010842.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010843.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010844.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010905.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010910.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010911.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010911.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010912.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010923.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010924.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010929.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010929.png" alt=""/></span>
+                <span class="reporter-method-output"><img src="file://A:\Workspace\Billing/Screenshots//validate_page_title/20180324010933.png" alt=""/></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -308,21 +244,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.billing.qa.tcs.ReportFramework</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.billing.qa.tcs.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUp(org.testng.TestRunner@34b9f960, chrome)</span>
+                <span class="method-name">setUp(org.testng.TestRunner@35a3d49f, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">checkLogin(mathewfloer13135, test1ng)</span>
-                <span class="method-start">9818 ms</span>
+                <span class="method-start">9912 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">validateReportFramework</span>
-                <span class="method-start">49269 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81910 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

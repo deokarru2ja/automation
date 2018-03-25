@@ -38,6 +38,9 @@ public class MyBillPage extends TestBase {
 	@FindBy(xpath="//*[@id=\"overview\"]/div/div/div[3]/a")
 	static WebElement reportsLink;
 	
+	@FindBy(xpath="//*[@id=\'overview\']/div/div/div[2]/a")
+	static WebElement paymentsLink;
+	
 	
 	
 	
@@ -149,13 +152,22 @@ public class MyBillPage extends TestBase {
     
     public static void openPrintPreview() {
     	
+    	
     	print.click();
+    	System.out.println(driver.getTitle());
     	
     }
     
     public static void navigateToReports() {
     	
     	reportsLink.click();
+    }
+    
+    public static void navigateToPayments() {
+    	
+    	paymentsLink.click();
+    	System.out.println(driver.getTitle());
+    	
     }
 
 }

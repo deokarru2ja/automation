@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="validate_reports_framework(failed)">
+  <test name="validate_bill_history_dropdown(failed)">
     <parameter name="password" value="test1ng"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="userName" value="mathewfloer13135"/>
+    <parameter name="userName" value="waynenkuxzxkwg85034"/>
     <classes>
-      <class name="com.billing.qa.tcs.ReportFramework">
+      <class name="com.billing.qa.tcs.BillHistoryDropdownTest">
         <methods>
+          <include name="validateNumberOfBillInBHD"/>
+          <include name="validateSelectPreviousBill"/>
+          <include name="validateTotalChargesForPreviousBill"/>
           <include name="setUp"/>
-          <include name="validateReportFramework"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.billing.qa.tcs.ReportFramework -->
+      </class> <!-- com.billing.qa.tcs.BillHistoryDropdownTest -->
     </classes>
-  </test> <!-- validate_reports_framework(failed) -->
+  </test> <!-- validate_bill_history_dropdown(failed) -->
 </suite> <!-- Failed suite [Suite] -->
